@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-entrance">
+        <li class="text">Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-entrance-close">
+        <li class="text">Entrance-close</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-front">
+        <li class="text">Front</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-back">
+        <li class="text">Back</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-water-side-duct">
+        <li class="text">Water-side duct</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-side-duct-start">
+        <li class="text">Side duct start</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-main-door">
+        <li class="text">Main door</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-inside-close">
+        <li class="text">Inside-close</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-inside-far">
+        <li class="text">Inside far</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-water-duct-bridge">
+        <li class="text">Water duct bridge</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-end-of-water-bridge">
+        <li class="text">End of water bridge</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-above-entrance">
+        <li class="text">Above entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-water-bridge-up">
+        <li class="text">Water bridge-up</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-water-control-box">
+        <li class="text">Water control box</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-middle-bridge">
+        <li class="text">Middle bridge</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
